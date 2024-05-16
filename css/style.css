@@ -13,14 +13,38 @@ h2 {
 
 /* ナビ */
 .nav {
-    margin: 0 auto;
+    width: 598px;
+    height: 69px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 34px;
+}
+
+.my-profile {
+    width: 200px;
+    height: 69px;
+}
+
+a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 69px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.my-select {
+    width: 250px;
+    display: flex;
 }
 
 /* メイン画像 */
 .main-image {
     margin: 0 auto;
-    width: 960px;
-    height: 400px;
+    width: 100%;
 }
 
 .main-image img {
@@ -36,11 +60,14 @@ h2 {
     justify-content: center;
 }
 
+.about-photo {
+    margin-right: 50px;
+}
+
 .about-photo img {
     width: 141px;
     height: 141px;
     border-radius: 50%;
-    margin-right: 50px;
     transform: scale(-1, 1);
 }
 
