@@ -41,6 +41,7 @@ h2 {
     height: 141px;
     border-radius: 50%;
     margin-right: 50px;
+    transform: scale(-1, 1);
 }
 
 /* Works */
